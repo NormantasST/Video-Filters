@@ -1,0 +1,4 @@
+C:\Coding\GrayScaleFilter\obj\x64\Debug\netcoreapp2.0\GrayScaleFilter.csprojAssemblyReference.cache
+C:\Coding\GrayScaleFilter\obj\x64\Debug\netcoreapp2.0\GrayScaleFilter.AssemblyInfoInputs.cache
+C:\Coding\GrayScaleFilter\obj\x64\Debug\netcoreapp2.0\GrayScaleFilter.AssemblyInfo.cs
+C:\Coding\GrayScaleFilter\obj\x64\Debug\netcoreapp2.0\GrayScaleFilter.csproj.CoreCompileInputs.cache

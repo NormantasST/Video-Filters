@@ -1,0 +1,245 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GrayScaleFilter/1.0.0": {
+        "dependencies": {
+          "Accord": "3.8.2-alpha",
+          "Accord.Video": "3.8.2-alpha",
+          "Accord.Video.FFMPEG": "3.8.2-alpha",
+          "Accord.Video.FFMPEG.x64": "3.8.2-alpha",
+          "Accord.Video.VFW": "3.8.2-alpha",
+          "FFMediaToolkit": "4.1.0",
+          "SixLabors.ImageSharp": "1.0.3",
+          "Splicer": "1.1.0",
+          "System.Drawing.Common": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "GrayScaleFilter.dll": {}
+        }
+      },
+      "Accord/3.8.2-alpha": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {
+            "assemblyVersion": "3.8.2.0",
+            "fileVersion": "3.8.2.6153"
+          }
+        }
+      },
+      "Accord.Video/3.8.2-alpha": {
+        "dependencies": {
+          "Accord": "3.8.2-alpha"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Video.dll": {
+            "assemblyVersion": "3.8.2.0",
+            "fileVersion": "3.8.2.6153"
+          }
+        }
+      },
+      "Accord.Video.FFMPEG/3.8.2-alpha": {
+        "dependencies": {
+          "Accord": "3.8.2-alpha",
+          "Accord.Video": "3.8.2-alpha"
+        }
+      },
+      "Accord.Video.FFMPEG.x64/3.8.2-alpha": {
+        "dependencies": {
+          "Accord": "3.8.2-alpha",
+          "Accord.Video": "3.8.2-alpha"
+        }
+      },
+      "Accord.Video.VFW/3.8.2-alpha": {
+        "dependencies": {
+          "Accord": "3.8.2-alpha",
+          "Accord.Video": "3.8.2-alpha"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Video.VFW.dll": {
+            "assemblyVersion": "3.8.2.0",
+            "fileVersion": "3.8.2.6153"
+          }
+        }
+      },
+      "FFMediaToolkit/4.1.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "4.3.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFMediaToolkit.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "FFmpeg.AutoGen/4.3.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/6.0.0-preview.3.21201.4": {},
+      "Microsoft.Win32.SystemEvents/6.0.0-preview.3.21201.4": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Splicer/1.1.0": {
+        "runtime": {
+          "lib/net45/DirectShowLib-2005.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/net45/Splicer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0-preview.3.21201.4": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GrayScaleFilter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.2-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g/EKYGdeMKTMJt7XtB65f+RyVW5ALfU1f1T1dpIGXOqzBtaaNK+OGB6pFY9RFrjKPQNUlnKUWF2jwH5knM+X7A==",
+      "path": "accord/3.8.2-alpha",
+      "hashPath": "accord.3.8.2-alpha.nupkg.sha512"
+    },
+    "Accord.Video/3.8.2-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/GnGUEbNBTy5pbiYFnD89VSvYW01JGnBQccZkLxFCYAqoNlWjwo46yvpEf6Gwiyypdh3T6+Ts3ns0S+payrKw==",
+      "path": "accord.video/3.8.2-alpha",
+      "hashPath": "accord.video.3.8.2-alpha.nupkg.sha512"
+    },
+    "Accord.Video.FFMPEG/3.8.2-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tL5Gu/8S4Og7ESjNXjUvqVRGtqXcyDmW+oXtoraDRboImI5G8wfcb2QdzofYl6QaW9Siz2nfW0GbSWu0sZBhiA==",
+      "path": "accord.video.ffmpeg/3.8.2-alpha",
+      "hashPath": "accord.video.ffmpeg.3.8.2-alpha.nupkg.sha512"
+    },
+    "Accord.Video.FFMPEG.x64/3.8.2-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9IglhMklp71ntsy+Urwa+A596qN5LnhlN80eRu8sfIbtc4q9lnbziLl9BSnBisIJUCV6DXwObX9FSGXbsIbDgA==",
+      "path": "accord.video.ffmpeg.x64/3.8.2-alpha",
+      "hashPath": "accord.video.ffmpeg.x64.3.8.2-alpha.nupkg.sha512"
+    },
+    "Accord.Video.VFW/3.8.2-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z4uqE43FnRhp1syL3nQzmaUZYMHRpdi6aC4LClKRwEC0w1npqgAbWdcA8NNHcY4xVEsNo/OHapazACic1uJtKQ==",
+      "path": "accord.video.vfw/3.8.2-alpha",
+      "hashPath": "accord.video.vfw.3.8.2-alpha.nupkg.sha512"
+    },
+    "FFMediaToolkit/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+YOke7Zagu5wD0aMW/D+195b962z3STLMQETm4JDilK5OCwsNvdb51tuPC//FhqmkH1AKcLWkygXp0TofoO/Wg==",
+      "path": "ffmediatoolkit/4.1.0",
+      "hashPath": "ffmediatoolkit.4.1.0.nupkg.sha512"
+    },
+    "FFmpeg.AutoGen/4.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-koM5zqdZZHGAVK0faNZgi9HjCrHrMRGaTqmTEbvMSx3YeNIZBd62JQMZjAE0HlQ3NsLnRvXigVJtwRidOnosUw==",
+      "path": "ffmpeg.autogen/4.3.0.1",
+      "hashPath": "ffmpeg.autogen.4.3.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hurJj7AjVBhDMETeT2NUuU85cyfi7Ej6cNOAxmbQfS8j0oMqsu45YCcCGJYjaRX5egaUJSf2GxuB7BRvY8OTg==",
+      "path": "microsoft.netcore.platforms/6.0.0-preview.3.21201.4",
+      "hashPath": "microsoft.netcore.platforms.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ryZRJ4rNc+3vgG+LHGwymy/y7EqIScywk575mtq5+chfXfqWZ/oPWGLCGbqqKBNqM8s0u9JdpyQVK9Ba/MJC/A==",
+      "path": "microsoft.win32.systemevents/6.0.0-preview.3.21201.4",
+      "hashPath": "microsoft.win32.systemevents.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRmZEITad+0tL22ZfAbLps6doDV+Z0/oH0dtXLpIBwn1sgai3QxxDQPjohHiDeUp/CTzRKVrFFbc4ZITnL2UBg==",
+      "path": "sixlabors.imagesharp/1.0.3",
+      "hashPath": "sixlabors.imagesharp.1.0.3.nupkg.sha512"
+    },
+    "Splicer/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z/W/pIGqqlCzRI3QGZZ27CpoixlAfSRunFUYBhIys8Gsv6DQlBqvQb2PtXRSgB4jiHi7M573/dMc3/e6htICXg==",
+      "path": "splicer/1.1.0",
+      "hashPath": "splicer.1.1.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1AnRbkmCDlAh5LQirSlWinp3PbeHXdGhGnchENFVcurVBWwqcz6ST1R+AQy79UWPNPgvC+RCy6q+eXnPxlY9Ow==",
+      "path": "system.drawing.common/6.0.0-preview.3.21201.4",
+      "hashPath": "system.drawing.common.6.0.0-preview.3.21201.4.nupkg.sha512"
+    }
+  }
+}

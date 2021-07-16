@@ -8,6 +8,7 @@ Creates Video filter. You only need to create a bitmap converter. Loses frames a
   * Longer Video
   * Faster (Multi-threading)
   * Remove non FFMPEG dependencies
+  
   Image Filters:
   * Sepia
   * Reversed (X and Y, Both)

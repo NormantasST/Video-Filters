@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Coding\\GrayScaleFilter\\GrayScaleFilter.csproj": {}
+    "C:\\Coding\\Video-Filters\\GrayScaleFilter.csproj": {}
   },
   "projects": {
-    "C:\\Coding\\GrayScaleFilter\\GrayScaleFilter.csproj": {
+    "C:\\Coding\\Video-Filters\\GrayScaleFilter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Coding\\GrayScaleFilter\\GrayScaleFilter.csproj",
+        "projectUniqueName": "C:\\Coding\\Video-Filters\\GrayScaleFilter.csproj",
         "projectName": "GrayScaleFilter",
-        "projectPath": "C:\\Coding\\GrayScaleFilter\\GrayScaleFilter.csproj",
+        "projectPath": "C:\\Coding\\Video-Filters\\GrayScaleFilter.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Coding\\GrayScaleFilter\\obj\\",
+        "outputPath": "C:\\Coding\\Video-Filters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -9,7 +9,10 @@ namespace GrayScaleFilter
         static void Main(string[] args)
         {
             string systemDirectory = System.AppDomain.CurrentDomain.BaseDirectory;
+
             NSVideoFilter.ConvertToNeonware($"{systemDirectory}video.mp4", NSVideoFilter.GetDirOutputPath());
         }
+
     }
+
 }

@@ -18,6 +18,8 @@ namespace GrayScaleFilter
         private static string systemDir = System.AppDomain.CurrentDomain.BaseDirectory;
         private static string outputImageDir = $"{systemDir}images";
         private static string FFmpegPath = $@"{systemDir}ffmpeg";
+        private static string sOutputCard = "out";
+        private static string sOutputCardExtension = "mp4";
 
         public static void ConvertVideo(string inputPath, string outputPath, Func<Bitmap, Bitmap> filterFuction)
         {
@@ -38,7 +40,7 @@ namespace GrayScaleFilter
             => ConvertVideo(inputPath, outputPath, NSBitmapFilter.ConvertToGrayscale);
 
         public static string GetDirOutputPath() // For QuickUse
-            => $@"{systemDir}output.mp4";
+            => $@"{systemDir}{sOutputCard}.{sOutputCardExtension}";
 
         private static void DeleteOutputFile(string filePath)
         {
@@ -92,8 +94,7 @@ namespace GrayScaleFilter
             FFMediaToolkit.Decoding.MediaFile mediaFile = FFMediaToolkit.Decoding.MediaFile.Open(fileLocation);
             FFmpegCommunicator.Start();
             Console.WriteLine($"Adding: images to video");
-            FFmpegCommunicator.Execute($"ffmpeg -r 1/3 -start_number 1 -i \'{outputImageDir}\\img%03d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4");
-            //FFmpegCommunicator.Execute($" -f image2 -framerate 24 -pattern_type glob -i \'{outputImageDir}\\*.png\' -vf format=yuv420p output.mp4");
+            FFmpegCommunicator.Execute($"-i {outputImageDir}\\img%03d.png -pix_fmt yuv420p {sOutputCard}.{sOutputCardExtension}");
             FFmpegCommunicator.End();
         }
 

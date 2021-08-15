@@ -24,11 +24,11 @@ namespace GrayScaleFilter
         public static void ConvertVideo(string inputPath, string outputPath, Func<Bitmap, Bitmap> filterFuction)
         {
             FFMediaToolkit.FFmpegLoader.FFmpegPath = FFmpegPath;
-            //CreateDirectory();
-            //ExtractImages(inputPath, filterFuction);
+            CreateDirectory();
+            ExtractImages(inputPath, filterFuction);
             DeleteOutputFile(outputPath);
             CombineImagesToVid(inputPath);
-            //DeleteImageDir();
+            DeleteImageDir();
             Console.WriteLine("-----------------------");
             Console.WriteLine("Filter Has been applied");
         }
